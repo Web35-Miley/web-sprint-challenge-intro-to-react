@@ -5,4 +5,25 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
-/* write your parent styles in here for your App.js */
+.container div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.cards {
+  width: 300px !important;
+  margin: 1%;
+}
+.ant-card-body{
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+}
+.card {
+  padding: 10px;
+  background-color: azure;
+ 
+}
